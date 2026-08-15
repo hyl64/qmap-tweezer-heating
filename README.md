@@ -36,7 +36,7 @@ pip install torch                      # P2WGS pipeline (GPU recommended)
 ## Quick start
 
 ```bash
-# 1) run the verification suite (22/22 checks, ~10 min on a laptop CPU)
+# 1) run the verification suite (22/22 checks, ~10-40 min depending on hardware)
 python run_verify.py
 
 # 2) optional: full pipeline on real P2WGS hologram sequences (GPU, ~8 min)
