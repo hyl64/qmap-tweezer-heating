@@ -1,0 +1,247 @@
+{
+ "ok": true,
+ "results": [
+  {
+   "name": "T1 sudden",
+   "pass_": true,
+   "value": 0.04500000000003026,
+   "expect": 0.04499999999999999,
+   "rel": 6.726101157520742e-13,
+   "tol": 0.002,
+   "info": "P0=0.955997 vs e^-nbar=0.955997 (3s)",
+   "sec": 3.3694708347320557,
+   "test": "t_sudden"
+  },
+  {
+   "name": "T2a analytic vs fock",
+   "pass_": true,
+   "value": 6.5790668702802e-06,
+   "expect": 6.579067509853126e-06,
+   "rel": 9.721330945618609e-08,
+   "tol": 0.0001,
+   "info": "",
+   "sec": 27.47900104522705,
+   "test": "t_minjerk_engines"
+  },
+  {
+   "name": "T2b analytic vs soft",
+   "pass_": true,
+   "value": 6.600901067563454e-06,
+   "expect": 6.579067509853126e-06,
+   "rel": 0.003318640168630227,
+   "tol": 0.005,
+   "info": "(27s)",
+   "sec": 27.479092836380005,
+   "test": "t_minjerk_engines"
+  },
+  {
+   "name": "T3a analytic vs fock",
+   "pass_": true,
+   "value": 10.23280576435635,
+   "expect": 10.232805843049444,
+   "rel": 7.690275366717407e-09,
+   "tol": 0.001,
+   "info": "",
+   "sec": 45.078760623931885,
+   "test": "t_resonant"
+  },
+  {
+   "name": "T3b analytic vs soft",
+   "pass_": true,
+   "value": 10.269014837174574,
+   "expect": 10.232805843049444,
+   "rel": 0.00353852058570268,
+   "tol": 0.005,
+   "info": "(38s)",
+   "sec": 45.07886362075806,
+   "test": "t_resonant"
+  },
+  {
+   "name": "T4 staircase F=2",
+   "pass_": true,
+   "value": 0.0013442807519048758,
+   "expect": 0.0013435698803070477,
+   "rel": 0.0005290916447648013,
+   "tol": 0.005,
+   "info": "(864s)",
+   "sec": 2506.5888907909393,
+   "test": "t_staircase"
+  },
+  {
+   "name": "T4 staircase F=3",
+   "pass_": true,
+   "value": 0.014952566424491196,
+   "expect": 0.014931351328527069,
+   "rel": 0.0014208423268156968,
+   "tol": 0.01,
+   "info": "(1643s)",
+   "sec": 2506.5958511829376,
+   "test": "t_staircase"
+  },
+  {
+   "name": "T5 static ground preserved",
+   "pass_": true,
+   "value": 1.0000000000004174,
+   "expect": 1.0,
+   "rel": -4.1744385725905886e-13,
+   "tol": 1e-09,
+   "info": "",
+   "sec": 10.70371413230896,
+   "test": "t_static"
+  },
+  {
+   "name": "T6a fock(inst) vs sinh\u00b2",
+   "pass_": true,
+   "value": 5.27284043010367,
+   "expect": 5.295976637760762,
+   "rel": 0.004368638541969473,
+   "tol": 0.02,
+   "info": "kappa fit ratio 0.9988 (271s)",
+   "sec": 288.9954752922058,
+   "test": "t_parametric"
+  },
+  {
+   "name": "T6b kappa fit vs eps w/4",
+   "pass_": true,
+   "value": 6275.3643885212505,
+   "expect": 6283.185307179587,
+   "rel": 0.0012447378639938167,
+   "tol": 0.02,
+   "info": "",
+   "sec": 288.9980847835541,
+   "test": "t_parametric"
+  },
+  {
+   "name": "T6c soft vs sinh\u00b2",
+   "pass_": true,
+   "value": 5.319850571645117,
+   "expect": 5.295976637760762,
+   "rel": 0.004507937915384974,
+   "tol": 0.02,
+   "info": "(18s)",
+   "sec": 288.99809741973877,
+   "test": "t_parametric"
+  },
+  {
+   "name": "T7 SOFT dt convergence",
+   "pass_": true,
+   "value": 0.0006573270659676176,
+   "expect": 0.0,
+   "rel": 0.0006573270659676176,
+   "tol": 0.02,
+   "info": "dt\u00b7w=0.08:n=6.976e-06(6.0e-02) dt\u00b7w=0.04:n=6.676e-06(1.5e-02) dt\u00b7w=0.02:n=6.601e-06(3.3e-03) dt\u00b7w=0.01:n=6.583e-06(6.6e-04)",
+   "sec": 23.31301736831665,
+   "test": "t_convergence"
+  },
+  {
+   "name": "T7b Fock Nmax convergence",
+   "pass_": true,
+   "value": 0,
+   "expect": 0,
+   "rel": 0,
+   "tol": 1e-06,
+   "info": "",
+   "sec": 23.31309199333191,
+   "test": "t_convergence"
+  },
+  {
+   "name": "T8a analytic vs classical RK4",
+   "pass_": true,
+   "value": 5052.737447811774,
+   "expect": 5053.237453357751,
+   "rel": 9.894756591054064e-05,
+   "tol": 0.03,
+   "info": "",
+   "sec": 46.51024508476257,
+   "test": "t_classical_limit"
+  },
+  {
+   "name": "T8b quantum vs classical",
+   "pass_": true,
+   "value": 5071.784691371992,
+   "expect": 5052.737447811774,
+   "rel": 0.003769687967552645,
+   "tol": 0.1,
+   "info": "n_q=5071.8 n_cl=5052.7 (46s)",
+   "sec": 46.5127911567688,
+   "test": "t_classical_limit"
+  },
+  {
+   "name": "T9 interference phase-jump",
+   "pass_": true,
+   "value": 0.12545301925454402,
+   "expect": 0.12545301925445645,
+   "rel": 6.980209929399409e-13,
+   "tol": 0.002,
+   "info": "dx/a0=-0.5009 (3s)",
+   "sec": 3.1815099716186523,
+   "test": "t_coupling_interference"
+  },
+  {
+   "name": "T10 momentum kick",
+   "pass_": true,
+   "value": 0.00044837501986258693,
+   "expect": 0.0004483750198622807,
+   "rel": 6.829838640711759e-13,
+   "tol": 0.002,
+   "info": "(3s)",
+   "sec": 2.94834303855896,
+   "test": "t_coupling_kick"
+  },
+  {
+   "name": "T11a model closure: lambda_q vs lambda_cl (Mathieu)",
+   "pass_": true,
+   "value": 12551.43461774798,
+   "expect": 12558.56823050361,
+   "rel": 0.0005680275509674093,
+   "tol": 0.02,
+   "info": "n\u0304_final=107.218",
+   "sec": 191.87282252311707,
+   "test": "t_coupling_parametric"
+  },
+  {
+   "name": "T11b lambda_cl vs RWA (2\u03b5)\u03c90/4",
+   "pass_": true,
+   "value": 12558.56823050361,
+   "expect": 12566.370614359173,
+   "rel": 0.000620893979256687,
+   "tol": 0.05,
+   "info": "",
+   "sec": 191.87285995483398,
+   "test": "t_coupling_parametric"
+  },
+  {
+   "name": "T12a norm (SOFT)",
+   "pass_": true,
+   "value": 1.0000000000001186,
+   "expect": 1.0,
+   "rel": 1.1857181902996672e-13,
+   "tol": 1e-09,
+   "info": "",
+   "sec": 0.2480013370513916,
+   "test": "t_unitarity"
+  },
+  {
+   "name": "T12b energy (static)",
+   "pass_": true,
+   "value": 1.1800728423805298e-13,
+   "expect": 0.0,
+   "rel": 1.1800728423805298e-13,
+   "tol": 1e-06,
+   "info": "",
+   "sec": 0.2480301856994629,
+   "test": "t_unitarity"
+  },
+  {
+   "name": "T12c norm (Fock)",
+   "pass_": true,
+   "value": 0.9999999996519089,
+   "expect": 1.0,
+   "rel": 3.4809111149058936e-10,
+   "tol": 1e-08,
+   "info": "",
+   "sec": 0.24803471565246582,
+   "test": "t_unitarity"
+  }
+ ]
+}

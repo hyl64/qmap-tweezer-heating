@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.log
+qmap_out/
+ckpt*/
+*.aux
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
